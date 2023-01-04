@@ -16,7 +16,7 @@ import {
 } from '@mui/material'
 import React from 'react'
 
-export const SideBar = ({ drawerWidth }) => {
+export const SideBar = ({ drawerWidth }: { drawerWidth: number }) => {
   return (
     <Box
       component="nav"
